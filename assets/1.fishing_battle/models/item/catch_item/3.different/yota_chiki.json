@@ -1,0 +1,6 @@
+{
+	"parent": "item/generated",
+	"textures": {
+		"layer0": "1.fishing_battle:item/catch_item/3.different/yota_chiki"
+	}
+}
