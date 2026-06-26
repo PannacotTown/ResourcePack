@@ -1,0 +1,50 @@
+{
+	"model": {
+		"type": "select",
+		"cases": [
+			{
+				"when": "CatchItem",
+				"model": {
+					"type": "range_dispatch",
+					"property": "custom_model_data",
+					"entries": [
+						{"model": {"type": "model", "model": "1.fishing_battle:item/catch_item/1.common/tara"}, "threshold": 1},
+						{"model": {"type": "model", "model": "1.fishing_battle:item/catch_item/1.common/aji"}, "threshold": 2},
+						{"model": {"type": "model", "model": "1.fishing_battle:item/catch_item/1.common/karei"}, "threshold": 3},
+						{"model": {"type": "model", "model": "1.fishing_battle:item/catch_item/1.common/syake"}, "threshold": 4},
+						{"model": {"type": "model", "model": "1.fishing_battle:item/catch_item/1.common/ika"}, "threshold": 5},
+						{"model": {"type": "model", "model": "1.fishing_battle:item/catch_item/1.common/sanma"}, "threshold": 6},
+						{"model": {"type": "model", "model": "1.fishing_battle:item/catch_item/2.high-grade/hotate"}, "threshold": 7},
+						{"model": {"type": "model", "model": "1.fishing_battle:item/catch_item/2.high-grade/hugu"}, "threshold": 8},
+						{"model": {"type": "model", "model": "1.fishing_battle:item/catch_item/2.high-grade/hirame"}, "threshold": 9},
+						{"model": {"type": "model", "model": "1.fishing_battle:item/catch_item/2.high-grade/sazae"}, "threshold": 10},
+						{"model": {"type": "model", "model": "1.fishing_battle:item/catch_item/2.high-grade/unagi"}, "threshold": 11},
+						{"model": {"type": "model", "model": "1.fishing_battle:item/catch_item/2.high-grade/uni"}, "threshold": 12},
+						{"model": {"type": "model", "model": "1.fishing_battle:item/catch_item/2.high-grade/maguro"}, "threshold": 13},
+						{"model": {"type": "model", "model": "1.fishing_battle:item/catch_item/3.different/caffe_latte"}, "threshold": 14},
+						{"model": {"type": "model", "model": "1.fishing_battle:item/catch_item/3.different/mitarashi"}, "threshold": 15},
+						{"model": {"type": "model", "model": "1.fishing_battle:item/catch_item/3.different/hamburg_sushi"}, "threshold": 16},
+						{"model": {"type": "model", "model": "1.fishing_battle:item/catch_item/3.different/sioramyon"}, "threshold": 17},
+						{"model": {"type": "model", "model": "1.fishing_battle:item/catch_item/3.different/takoyaki"}, "threshold": 18},
+						{"model": {"type": "model", "model": "1.fishing_battle:item/catch_item/3.different/mattya_ice"}, "threshold": 19.0},
+						{"model": {"type": "model", "model": "1.fishing_battle:item/catch_item/3.different/mattya_ice_secret"}, "threshold": 19.1},
+						{"model": {"type": "model", "model": "1.fishing_battle:item/catch_item/3.different/kaisendon"}, "threshold": 20},
+						{"model": {"type": "model", "model": "1.fishing_battle:item/catch_item/3.different/yota_chiki"}, "threshold": 21},
+						{"model": {"type": "model", "model": "1.fishing_battle:item/catch_item/3.different/koimoyou"}, "threshold": 22},
+						{"model": {"type": "model", "model": "1.fishing_battle:item/catch_item/4.treasure/yotan_cloth"}, "threshold": 24},
+						{"model": {"type": "model", "model": "1.fishing_battle:item/catch_item/4.treasure/asuneli"}, "threshold": 23},
+						{"model": {"type": "model", "model": "1.fishing_battle:item/catch_item/4.treasure/green_note"}, "threshold": 25},
+						{"model": {"type": "model", "model": "1.fishing_battle:item/catch_item/4.treasure/shark_peel"}, "threshold": 26},
+						{"model": {"type": "model", "model": "1.fishing_battle:item/catch_item/5.miss/gomi"}, "threshold": 27},
+						{"model": {"type": "model", "model": "1.fishing_battle:item/catch_item/5.miss/gomitan"}, "threshold": 28}
+					]
+				}
+			}
+		],
+		"fallback": {
+			"type": "model",
+			"model": "minecraft:item/barrier"
+		},
+		"property": "custom_model_data"
+	}
+}
